@@ -159,7 +159,7 @@ a:hover{
 
 /* Hero */
 
-@media (max-width:510px){
+@media (max-width:570px){
     .hero-h1{
         padding: 0px !important;
         font-size: 58px !important;

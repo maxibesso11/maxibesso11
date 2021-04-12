@@ -1,0 +1,120 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap');
+
+
+.Sign-up-ct-left{
+    background-color: white;
+    height: 100vh;
+}
+
+*{
+    font-family: Manrope;
+    font-style: normal;
+}
+
+.logo{
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 20px;
+    font-feature-settings: 'liga' off;
+    color: #0B0D17;
+    mix-blend-mode: darken;
+    margin-top: 20px;
+}
+
+
+.Sign-up-content-ct{
+    position: absolute;
+    top: 6%;
+    transform: translateY(6%);
+    width: 60%;
+    left: 17%;
+}
+
+
+.Sign-up-p{
+    color: grey;
+    font-size: 24px;
+    margin: 15px 0;
+}
+
+.Sign-up-input{
+    width: 100%;
+    display: block;
+    margin: 20px auto;
+    border: none;
+    border-bottom: 1px solid rgba(168, 168, 168, 0.582);
+    outline: none;
+    transition: .2s;
+    padding: 5px;
+}
+
+.Sign-up-btn{
+    width: 100%;
+    display: block;
+    margin: 20px auto;
+    outline: none;
+    border: none;
+    transition: .2s;
+    background-color: #2ab5e1;
+    padding: 10px;
+    color: white;
+}
+
+.Sign-up-input:hover{
+    border-bottom: 2px solid #2ab5e1;
+}
+
+@media (min-width:767px) and  (max-width:992px){
+    .Sign-up-content-ct{
+        position: initial;
+        display: block;
+        margin: auto;
+    }
+}
+
+@media (min-width:768px) and (max-width:900px){
+    .sign-up{
+        font-size: 15px !important;
+        display: block;
+    }  
+    .forget-password{
+        float: none !important;
+        margin-top: 10px;
+    }  
+    .Sign-up-content-ct{
+        top: 15%;
+    }
+}
+
+@media (min-width:500px) and (max-width:767px){
+    .Sign-up-content-ct{
+        width: 90%;
+        left: 0%;
+        transform: none;
+        position: relative;
+        margin: auto;
+        display: block;
+    }
+}
+
+@media (min-width:320px) and (max-width:500px){
+    .Sign-up-content-ct{
+        width: 100%;
+        left: 0%;
+        transform: none;
+        position: relative;
+        margin: auto;
+        display: block;
+    }
+}
+
+
+/* Right */
+
+.Sign-up-ct-right{
+    background-color: #2ab5e1;
+    height: 100vh;
+}
